@@ -1,0 +1,61 @@
+/* body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+} */
+body{
+    background-image: url("./images/bg-intro-desktop.png");
+    background-size: 100%;
+    background: #FF7979;
+    z-index: 3;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+form {
+  border: 2px solid grey;
+  width: 300px;
+  border-radius: 7px;
+  background-color: darkgray;
+  padding: 24px;
+}
+input {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  height: 7vh;
+  border: 1px solid grey;
+}
+label {
+  color: grey;
+}
+.inputs_container {
+  margin-top: 10px;
+}
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+#check {
+  color: red;
+}
+
+.button_container > button {
+  width: 200px;
+  height: 7vh;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
